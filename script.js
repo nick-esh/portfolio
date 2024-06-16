@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-    alert('Welcome to Nikesh Thapa\'s Portfolio!');
+    alert('Welcome to My Portfolio!');
 });
