@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Welcome to my portfolio!');
+    console.log('Welcome to my portfolio site!');
 
     // Simple form validation
     const form = document.getElementById('contact-form');
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.getElementById('message').value;
 
         if (name && email && message) {
-            alert('Thank you for your message, ' + name + '!');
+            alert(`Thank you for your message, ${name}!`);
             form.reset();
         } else {
             alert('Please fill out all fields.');
